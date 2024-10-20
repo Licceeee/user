@@ -28,7 +28,7 @@ In your Django project's settings.py, add the custom user app to INSTALLED_APPS:
 ```
 INSTALLED_APPS = [
     ...
-    'user',  # or path to the submodule (e.g., 'path.to.submodule.user')
+    "user.apps.UserConfig",  # Custom user app
 ]
 ```
 
